@@ -2,10 +2,11 @@ import './App.css'
 
 function App() {
 
+
   return (
     
-      <div className='app'>
-        <h1>Hola Mundo</h1>
+      <div>
+        <h1>Entregable 4</h1>
       </div>
         
   )
