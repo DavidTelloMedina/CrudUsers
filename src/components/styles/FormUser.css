@@ -53,20 +53,34 @@
     border: 0.1em solid #aaa;
 }
 .formuser__btn{
-    width: 100%;
-    font-size: 1.1rem;
-    font-weight: 900;
-    padding-top: 0.6em;
-    padding-bottom: 0.6em;
-    border-radius: 5px;  
-    color: white;
-    margin-top:1em;
+    border: none;
     background-color: black;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    width: 20rem;
+    font-size: 1.4rem;
+    border-radius: 0.5rem;
+    margin: 20px auto;
+  
 }
-.formuser__btn:hover{
-    filter: brightness(1.2);
+.formuser__change{
+    font-size: 1.15rem;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;  
+    color: white;
+    background-color: black;
+    padding: 0.5rem 1rem;
+    width: 250px;
+    margin: 10px auto;
+    cursor: pointer;
 }
-
 .formuser__close:hover{
     color:white;
 }

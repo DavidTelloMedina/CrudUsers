@@ -31,6 +31,7 @@ setCloseForm(false)
     
       <div>
         <h1>Users</h1>
+        <hr />
         <button onClick={handleOpenForm} className='formuser__btn'>Open Form</button>
         <FormUser 
         createNewUser={createNewUser}
@@ -44,6 +45,7 @@ setCloseForm(false)
 
         />
         <div>
+         <section className='global_container'> 
           {
             users?.map(user=>(
               <UserCard 
@@ -56,6 +58,7 @@ setCloseForm(false)
               />
             ))
           }
+          </section> 
         </div>
       </div>
         

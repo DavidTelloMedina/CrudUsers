@@ -102,7 +102,7 @@ const FormUser = ({
         type="date" 
         id="birthday"/>        
     </div>
-    <button className="formuser__btn">
+    <button className="formuser__change">
         {updateInfo
         ? 'Update this user' 
         : 'Add a new user'}
